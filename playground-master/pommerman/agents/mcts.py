@@ -667,7 +667,7 @@ def MCTS_search(obs, mode, id, enemy=None):
 
     # Set the rounds to play
 
-    computation_budget = 100 # 假设每次模拟1000次
+    computation_budget = 50 # 假设每次模拟1000次
     for i in range(computation_budget):
         # 1. Find the best node to expand
         expand_node = selection(current_node)
