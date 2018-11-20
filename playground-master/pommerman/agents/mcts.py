@@ -8,14 +8,9 @@ import numpy as np
 from . import BaseAgent
 import sys
 import math
-import random
-import queue
-import numpy as np
 import time
 from .. import constants
 from .. import utility
-from collections import defaultdict
-
 
 class State(object):
     """
