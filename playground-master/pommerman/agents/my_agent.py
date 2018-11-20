@@ -30,7 +30,6 @@ class MyAgent(BaseAgent):
         self.my_id = None
 
     def act(self, obs, action_space):
-        print(obs)
         def convert_bombs(bomb_map):
             '''Flatten outs the bomb array'''
             ret = []
